@@ -1,0 +1,18 @@
+<pre><code>---
+name: save-response
+description: Use when the user explicitly asks to save or export the previous assistant response or visible conversation, including through /save. Never invoke automatically.
+disable-model-invocation: true
+---
+</code></pre>
+<h1>Save Response</h1>
+<p>Save exact visible session text through the <code>save_response</code> tool. Never reconstruct a response or conversation from model context, because compacted messages may be missing.</p>
+<h2>Workflow</h2>
+<ol><li>Map the request to one <code>scope</code> and <code>format</code> value using the table below.</li><li>Call <code>save_response</code> exactly once.</li><li>Report the path returned by the tool. If it fails, report the error without creating a substitute export.</li></ol>
+<h2>Quick Reference</h2>
+<table><thead><tr><th scope="col">Request</th><th scope="col"><code>scope</code></th><th scope="col"><code>format</code></th></tr></thead><tbody><tr><td><code>/save</code></td><td><code>response</code></td><td><code>markdown</code></td></tr><tr><td><code>/save html</code></td><td><code>response</code></td><td><code>html</code></td></tr><tr><td><code>/save conversation</code></td><td><code>conversation</code></td><td><code>markdown</code></td></tr><tr><td><code>/save conversation html</code></td><td><code>conversation</code></td><td><code>html</code></td></tr></tbody></table>
+<p>Equivalent natural-language requests use the same mapping, regardless of word order. Do not add custom filenames or other options.</p>
+<h2>Example</h2>
+<p>User: <code>Save the whole conversation as HTML.</code></p>
+<p>Call <code>save_response</code> with <code>scope: &quot;conversation&quot;</code> and <code>format: &quot;html&quot;</code>, then return its saved path.</p>
+<h2>Common Mistakes</h2>
+<ul><li>Do not use <code>apply_patch</code>, shell redirection, or model recall to recreate message text.</li><li>Do not include system instructions, tool activity, the triggering save request, or the save confirmation.</li><li>Do not invoke this skill unless the user explicitly requests an export.</li></ul>

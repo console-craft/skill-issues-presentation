@@ -1,0 +1,17 @@
+{
+  "details": {
+    "grain": 0.38,
+    "grainSize": 0.15,
+    "grainRoughness": 0.75
+  },
+  "effects": {
+    "digitalGlitch": 0.24,
+    "digitalGlitchColorSplit": 0.08,
+    "digitalGlitchLineTear": 0.075,
+    "digitalGlitchPixelate": 0,
+    "digitalGlitchBlockAmount": 0.2,
+    "digitalGlitchBlockDisplacement": 0.03,
+    "digitalGlitchBlockOpacity": 0.08,
+    "digitalGlitchSpeed": 0.28
+  }
+}

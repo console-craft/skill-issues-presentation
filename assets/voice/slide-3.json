@@ -1,0 +1,39 @@
+{
+  "source": "../../../audio/narations/slide-3.mp3",
+  "cues": [
+    {
+      "id": "understanding-frustration",
+      "start": 4.84,
+      "text": "the frustration Ovi ran into"
+    },
+    {
+      "id": "understanding-realization",
+      "start": 24.32,
+      "text": "simple realization"
+    },
+    {
+      "id": "understanding-improvement",
+      "start": 54.74,
+      "text": "getting more value out of the tools he already uses"
+    },
+    {
+      "id": "understanding-goal",
+      "start": 61.46,
+      "text": "Maximize understanding and confidence per unit of attention"
+    }
+  ],
+  "speech": [
+    [
+      0,
+      89.16191
+    ],
+    [
+      90.20422,
+      99.64907
+    ],
+    [
+      100.11835,
+      111.72571
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "../../../audio/narations/slide-2.mp3",
+  "cues": [
+    { "id": "audience-bell", "start": 21.56, "text": "So let's start with who's in the room." },
+    { "id": "audience-item-1", "start": 42.88, "text": "They have a regular job, deadlines, an existing codebase, and teammates." },
+    { "id": "audience-item-2", "start": 48.30, "text": "Every other day there's a new model, a new agent, or some revolutionary framework." },
+    { "id": "audience-item-3", "start": 53.74, "text": "Meanwhile, someone on Twitter has apparently shipped an entire startup before lunch." },
+    { "id": "audience-item-4", "start": 64.60, "text": "There's pressure to keep up, but not enough time or freedom to experiment with everything." },
+    { "id": "audience-item-5", "start": 71.38, "text": "Someone is going to have to understand and maintain the code six months from now." },
+    { "id": "audience-producing", "start": 88.60, "text": "producing code" },
+    { "id": "audience-understanding", "start": 89.28, "text": "understanding code" },
+    { "id": "audience-confidence", "start": 90.66, "text": "confidence in code" }
+  ],
+  "speech": [
+    [0, 2.011],
+    [2.662, 11.787],
+    [12.568, 19.470],
+    [20.090, 21.319],
+    [22.012, 48.013],
+    [48.934, 53.630],
+    [54.212, 58.632],
+    [59.210, 69.068],
+    [69.888, 75.515],
+    [76.365, 109.454],
+    [110.002, 111.382],
+    [112.138, 119.353]
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "source": "../../../audio/narations/slide-6.mp3",
+  "cues": [
+    {
+      "id": "remote-interface",
+      "start": 14.34,
+      "text": "while the client provides the interface"
+    },
+    {
+      "id": "remote-wsl",
+      "start": 21.46,
+      "text": "development environment inside WSL"
+    },
+    {
+      "id": "remote-server",
+      "start": 32.16,
+      "text": "Run your agents on a dedicated Linux workstation"
+    },
+    {
+      "id": "remote-ssh",
+      "start": 54.14,
+      "text": "SSH"
+    },
+    {
+      "id": "remote-network",
+      "start": 55.22,
+      "text": "networking tools"
+    },
+    {
+      "id": "remote-services",
+      "start": 56.56,
+      "text": "remote services"
+    },
+    {
+      "id": "remote-tailscale",
+      "start": 66.56,
+      "text": "Tailscale"
+    }
+  ],
+  "speech": [
+    [
+      0,
+      30.31295
+    ],
+    [
+      30.83082,
+      32.03227
+    ],
+    [
+      32.49807,
+      37.6424
+    ],
+    [
+      38.11286,
+      43.54973
+    ],
+    [
+      44.38265,
+      58.04415
+    ],
+    [
+      58.63741,
+      65.62565
+    ],
+    [
+      66.4749,
+      78.31748
+    ],
+    [
+      79.21946,
+      83.72354
+    ],
+    [
+      84.26213,
+      85.63744
+    ],
+    [
+      86.10943,
+      90.28682
+    ],
+    [
+      90.82222,
+      95.46027
+    ],
+    [
+      96.04259,
+      102.16489
+    ]
+  ]
+}

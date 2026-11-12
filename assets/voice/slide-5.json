@@ -1,0 +1,126 @@
+{
+  "source": "../../../audio/narations/slide-5.mp3",
+  "cues": [
+    {
+      "id": "ade-definition",
+      "start": 3.74,
+      "text": "Agentic Development Environment"
+    },
+    {
+      "id": "ade-tool-1",
+      "start": 7.44,
+      "text": "Claude Code"
+    },
+    {
+      "id": "ade-tool-2",
+      "start": 9.48,
+      "text": "Codex"
+    },
+    {
+      "id": "ade-tool-3",
+      "start": 10.14,
+      "text": "Open Code"
+    },
+    {
+      "id": "ade-tool-4",
+      "start": 11.14,
+      "text": "Pi"
+    },
+    {
+      "id": "ade-tool-5",
+      "start": 12.1,
+      "text": "T3 Code"
+    },
+    {
+      "id": "ade-feature-1",
+      "start": 56.96,
+      "text": "diff viewers"
+    },
+    {
+      "id": "ade-feature-2",
+      "start": 58.08,
+      "text": "mermaid diagrams"
+    },
+    {
+      "id": "ade-feature-3",
+      "start": 59.12,
+      "text": "file explorers"
+    },
+    {
+      "id": "ade-feature-4",
+      "start": 60.22,
+      "text": "integrated browsers"
+    },
+    {
+      "id": "ade-feature-5",
+      "start": 123.4,
+      "text": "make it your own"
+    }
+  ],
+  "speech": [
+    [
+      0,
+      6.77952
+    ],
+    [
+      7.36388,
+      22.78054
+    ],
+    [
+      23.33336,
+      30.46385
+    ],
+    [
+      31.15807,
+      44.6824
+    ],
+    [
+      45.2859,
+      52.47977
+    ],
+    [
+      53.2256,
+      53.62991
+    ],
+    [
+      54.11472,
+      56.53796
+    ],
+    [
+      57.18512,
+      72.95268
+    ],
+    [
+      74.00111,
+      77.91998
+    ],
+    [
+      78.55079,
+      85.88728
+    ],
+    [
+      86.4246,
+      91.05973
+    ],
+    [
+      92.01587,
+      106.42499
+    ],
+    [
+      107.37265,
+      110.61483
+    ],
+    [
+      111.56728,
+      113.25653
+    ],
+    [
+      113.79848,
+      120.77023
+    ],
+    [
+      121.44753,
+      129.5971
+    ]
+  ]
+}

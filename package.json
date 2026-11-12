@@ -1,0 +1,10 @@
+{
+  "name": "presentation-skeleton",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 3018 --bind 127.0.0.1",
+    "check": "\"$HOME/Library/Application Support/HyperFrames/agent-cli/bin/hyperframes\" check ./composition --json",
+    "test": "node smoke.mjs"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "source": "../../../audio/narations/slide-19.mp3",
+  "cues": [
+    {
+      "id": "recap-object",
+      "start": 20.8,
+      "text": "The object of your work has changed"
+    },
+    {
+      "id": "recap-skill-1",
+      "start": 33.24,
+      "text": "Clarify intent"
+    },
+    {
+      "id": "recap-skill-2",
+      "start": 39.96,
+      "text": "Codebase explanations"
+    },
+    {
+      "id": "recap-skill-3",
+      "start": 44.18,
+      "text": "PR review"
+    },
+    {
+      "id": "recap-skill-4",
+      "start": 50.04,
+      "text": "architecture documentation"
+    },
+    {
+      "id": "recap-statement-1",
+      "start": 88.74,
+      "text": "your focus"
+    },
+    {
+      "id": "recap-statement-2",
+      "start": 92.18,
+      "text": "your mindset"
+    },
+    {
+      "id": "recap-statement-3",
+      "start": 95.52,
+      "text": "your principle"
+    },
+    {
+      "id": "recap-statement-4",
+      "start": 100.38,
+      "text": "your constraint"
+    }
+  ],
+  "speech": [
+    [
+      0,
+      32.95996
+    ],
+    [
+      33.46268,
+      39.86136
+    ],
+    [
+      40.32651,
+      44.06805
+    ],
+    [
+      44.6358,
+      49.70562
+    ],
+    [
+      50.18526,
+      57.46884
+    ],
+    [
+      58.03118,
+      72.1068
+    ],
+    [
+      72.87184,
+      77.25168
+    ],
+    [
+      77.7944,
+      82.82204
+    ],
+    [
+      84.15426,
+      91.88581
+    ],
+    [
+      92.42832,
+      93.04821
+    ],
+    [
+      93.50204,
+      96.39628
+    ],
+    [
+      96.87277,
+      105.17054
+    ],
+    [
+      105.83907,
+      138.24
+    ]
+  ]
+}
