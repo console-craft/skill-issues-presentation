@@ -12,6 +12,8 @@ The presentation is published at **https://skill-issues.console-craft.com/** fro
 
 GitHub **Settings → Pages** uses **GitHub Actions** and the custom domain `skill-issues.console-craft.com`. Cloudflare DNS uses a **DNS-only** CNAME named `skill-issues` pointing to `console-craft.github.io`. GitHub manages the HTTPS certificate; no Cloudflare credentials belong in this repository or workflow. Keep any GitHub Pages verification TXT record in DNS.
 
+Social previews use `assets/social-preview.png`, a 1200×630 crop of the clean `stills/01-title.png` cover screenshot. The PNG/ICO favicons are static, transparent copies of the first frame of `composition/assets/ai-talking.gif`. Run `npm run test:sharing` to check the crawler-visible metadata and image assets without the Mac-only presentation test setup.
+
 ## Open the presentation
 
 From Terminal:
