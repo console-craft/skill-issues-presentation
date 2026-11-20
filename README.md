@@ -4,6 +4,14 @@ Twenty-one editable HyperFrames slides: twenty themed slides using backgrounds 0
 
 All runtime and media assets are included locally; no package installation, CDN, or paid generation is needed. Originals and the earlier `neon-proof` mock are unchanged.
 
+## Public website
+
+The presentation is published at **https://skill-issues.console-craft.com/** from the **console-craft/skill-issues-presentation** repository.
+
+`.github/workflows/pages.yml` deploys automatically on pushes to `main`, or manually through GitHub Actions. It publishes only `index.html`, `deck.js`, `transitions.js`, `assets/`, and `composition/`; no build or package installation is needed. Tests, stills, and treatment-generation files are excluded from the website, although they remain visible in the public repository.
+
+GitHub **Settings → Pages** uses **GitHub Actions** and the custom domain `skill-issues.console-craft.com`. Cloudflare DNS uses a **DNS-only** CNAME named `skill-issues` pointing to `console-craft.github.io`. GitHub manages the HTTPS certificate; no Cloudflare credentials belong in this repository or workflow. Keep any GitHub Pages verification TXT record in DNS.
+
 ## Open the presentation
 
 From Terminal:
